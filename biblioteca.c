@@ -75,7 +75,7 @@ void listarLibros(struct Libro *libros, int cont) {
 
 struct Libro* buscarLibro(struct Libro *libros, int cont, int id, char *titulo) {
     for (int i = 0; i < cont; i++) {
-        if ((id != -1 && libros[i].id == id) || (titulo != NULL && strcmp(libros[i].titulo, titulo) == 0)) {
+        if (id != -1 && libros[i].id == id) {
             return &libros[i];
         }
     }
