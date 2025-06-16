@@ -23,7 +23,6 @@ int main() {
             case 3:
                int tipo;
                 printf("Buscar por ID\n");
-                scanf("%d", &tipo);
                     printf("ID: ");
                     scanf("%d", &id);
                     libro = buscarLibro(libros, cont, id, NULL);

@@ -9,7 +9,7 @@ int menu() {
     printf("1. Registrar Libro\n");
     printf("2. Listar Libros\n");
     printf("3. Buscar Libro\n");
-    printf("4. Pedir Libro\n");
+    printf("4. Actualizar estado del Libro\n");
     printf("5. Eliminar Libro\n");
     printf("6. Salir\n");
     printf(">> ");
