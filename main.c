@@ -22,7 +22,7 @@ int main() {
                 break;
             case 3:
                int tipo;
-                printf("Buscar por ID\n");
+                printf("Buscar por ID \n");
                     printf("ID: ");
                     scanf("%d", &id);
                     libro = buscarLibro(libros, cont, id, NULL);
